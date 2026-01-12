@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gaming & Tech Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>🎮 Gaming & Tech Hub</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#articles">Articles</a>
+        <a href="#tools" onclick="showTools()">Tools</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Best BGMI Gaming Tips & Tech Tools</h2>
+    <p>Improve your gameplay & discover useful tech tools</p>
+</section>
+
+<section id="articles" class="articles">
+    <h2>Latest Articles</h2>
+
+    <div class="card">
+        <h3>BGMI Sensitivity Best Settings</h3>
+        <p>Pro players jaisi aim paane ke tips</p>
+        <a href="article.html?id=1">Read More</a>
+    </div>
+
+    <div class="card">
+        <h3>BGMI Gyro vs Non-Gyro</h3>
+        <p>Kaunsa better hai?</p>
+        <a href="article.html?id=2">Read More</a>
+    </div>
+
+    <div class="card">
+        <h3>Low End Phone BGMI Tips</h3>
+        <p>Lag free gameplay tricks</p>
+        <a href="article.html?id=3">Read More</a>
+    </div>
+
+    <div class="card">
+        <h3>Best Gaming Tools for Android</h3>
+        <p>Har gamer ke liye must-have tools</p>
+        <a href="article.html?id=4">Read More</a>
+    </div>
+</section>
+
+<section id="tools" class="tools" style="display:none;">
+    <h2>🛠 BGMI Gaming Optimizer (Legal)</h2>
+
+    <label>Select Phone RAM</label><br>
+    <select id="ram">
+        <option value="3">3 GB RAM</option>
+        <option value="4">4 GB RAM</option>
+        <option value="6">6 GB+ RAM</option>
+    </select><br>
+
+    <button onclick="optimize()">Get Best Settings</button>
+    <div id="result"></div>
+</section>
+
+<footer>
+    <p>© 2026 Gaming & Tech Hub | Legal Gaming Tips</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
